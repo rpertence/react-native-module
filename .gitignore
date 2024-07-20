@@ -6,5 +6,3 @@ RNWindows/web/*
 RNWindows/.expo/*
 react-native-app-with-module/node_modules/*
 react-native-native-module-sample/node_modules/*
-react-native-native-module-sample/android/*
-react-native-native-module-sample/ios/*
