@@ -1,9 +1,9 @@
-// NativeModuleSample.m
+// SpotPermissions.m
 
-#import "NativeModuleSample.h"
+#import "SpotPermissions.h"
 
 
-@implementation NativeModuleSample
+@implementation SpotPermissions
 
 RCT_EXPORT_MODULE()
 

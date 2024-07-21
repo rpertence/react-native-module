@@ -6,16 +6,17 @@ import {
   Button,
   NativeSyntheticEvent,
   TextInputChangeEventData,
+  TextInput,
+  SafeAreaView,
 } from "react-native";
-import { TextInput } from "react-native-gesture-handler";
-import usePermissions from "react-native-native-module-sample";
+import useSpotPermissions from "react-native-spot-permissions";
 
 export default function HomeScreen() {
   const [depotMapSpotId, setDepotMapSpotId] = useState("");
   const [containerId, setContainerId] = useState("");
   const [result, setResult] = useState("");
 
-  const { checkAllowed } = usePermissions();
+  const { checkAllowed } = useSpotPermissions();
 
   const onDepotMapSpotIdChange = (
     e: NativeSyntheticEvent<TextInputChangeEventData>
@@ -35,20 +36,21 @@ export default function HomeScreen() {
   };
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Text>Depot Map Spot ID</Text>
       <TextInput style={styles.input} onChange={onDepotMapSpotIdChange} />
       <Text>Container ID</Text>
       <TextInput style={styles.input} onChange={onContainerIdChange} />
       <Button title="Check Permissions" onPress={onButtonClick} />
       <Text>Result: {result}</Text>
-    </View>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     padding: 20,
+    margin: 20,
   },
   input: {
     borderWidth: 1,

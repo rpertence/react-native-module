@@ -1,6 +1,6 @@
 {
-  "name": "react-native-native-module-sample",
-  "title": "React Native Native Module Sample",
+  "name": "react-native-spot-permissions",
+  "title": "React Native Spot Permissions",
   "version": "1.0.0",
   "description": "TODO",
   "main": "index.js",
@@ -9,15 +9,15 @@
     "android",
     "index.js",
     "ios",
-    "react-native-native-module-sample.podspec"
+    "react-native-spot-permissions.podspec"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-native-module-sample.git",
-    "baseUrl": "https://github.com/github_account/react-native-native-module-sample"
+    "url": "git+https://github.com/github_account/react-native-spot-permissions.git",
+    "baseUrl": "https://github.com/github_account/react-native-spot-permissions"
   },
   "keywords": [
     "react-native"

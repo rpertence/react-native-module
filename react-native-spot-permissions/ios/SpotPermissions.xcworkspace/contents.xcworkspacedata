@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:NativeModuleSample.xcodeproj">
+      location = "group:SpotPermissions.xcodeproj">
    </FileRef>
 </Workspace>
